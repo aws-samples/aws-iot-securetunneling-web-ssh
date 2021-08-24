@@ -5,7 +5,7 @@
 AWS IoT Secure Tunneling helps customers establish bidirectional communication to remote devices over a secure connection that is managed by AWS IoT. Secure tunneling does not require updates to your existing inbound firewall rule, so you can keep the same security level provided by firewall rules at a remote site.
 
 This web application demonstrates how to use AWS IoT Secure Tunneling to gain access to a remote device from a web browser. 
-Nothing to install on the source. 
+Nothing to install on the source (your local machine). 
 
 <br> 
 
