@@ -1,0 +1,44 @@
+<div fxLayout="column" fxLayoutAlign="center center" fxFill>
+    <mat-card class="mat-elevation-z12 formCard" fxLayout='column' fxLayoutAlign="center center">
+            <mat-toolbar class="toolbar" fxLayoutAlign="center center" color="accent">
+                    <img src="/assets/logo.png" height="40px">
+            </mat-toolbar>
+           
+
+
+            <form  [formGroup]="authForm" (ngSubmit)="onSubmit(authForm)" class="authForm">
+                <br>
+                <br>
+                <div *ngIf='error' fxLayout="column" fxLayoutAlign='center center' fxLayoutGap='10px'>
+                        <mat-error>{{errorLogin}}</mat-error>
+                <br>
+                <br>
+                </div>
+
+
+                <mat-card-content fxLayout='column' fxLayoutAlign="center stretch" fxLayoutGap="5px">
+
+                    <mat-form-field>
+                        <i matPrefix class="mdi mdi-email-variant"></i>              
+                        <input matInput placeholder="Username" type="username" formControlName="username">
+                    </mat-form-field>
+                    <br>
+                    <br>
+                    <mat-form-field>
+                        <i matPrefix class="mdi mdi-lock-reset"></i>
+                        <input matInput placeholder="Password" [type]="!hide ? 'password' : 'text'" formControlName="password">
+                        <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+                        <mat-error>The password must be at least 5 characters in length</mat-error>
+                    </mat-form-field>
+                </mat-card-content>
+                <br>
+                <br>
+                <mat-divider></mat-divider>
+                <br>
+                <mat-card-actions fxLayoutAlign="center center">
+                    <button mat-raised-button type="submit" [disabled]="authForm.invalid" color="accent">Sign In</button>
+                </mat-card-actions>
+            </form> 
+    </mat-card>
+</div> 
+

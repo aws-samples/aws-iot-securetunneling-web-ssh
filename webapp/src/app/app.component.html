@@ -1,0 +1,12 @@
+<mat-sidenav-container fxFill>
+  <mat-sidenav #menu mode="over" class="sidewith">
+      <app-menu></app-menu>  
+  </mat-sidenav>
+  <mat-sidenav-content fxLayout="column">
+          <app-header></app-header>
+          <div fxFlex>
+            <router-outlet></router-outlet>  
+          </div>
+  
+  </mat-sidenav-content>
+</mat-sidenav-container>

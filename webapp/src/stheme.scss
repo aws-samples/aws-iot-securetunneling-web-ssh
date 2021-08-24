@@ -1,0 +1,11 @@
+@use '~@angular/material' as mat;
+@include mat.core();
+
+/* ======== Angular material custom themes ======== */ 
+$my-custom-primary: mat.define-palette(mat.$grey-palette, 900);
+$my-custom-accent: mat.define-palette(mat.$teal-palette, 500);
+$my-custom-warn: mat.define-palette(mat.$red-palette, A200);
+
+$my-custom-theme: mat.define-light-theme($my-custom-primary, $my-custom-accent, $my-custom-warn);
+
+@include mat.all-component-themes($my-custom-theme);

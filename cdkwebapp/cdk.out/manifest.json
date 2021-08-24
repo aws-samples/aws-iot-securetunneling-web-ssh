@@ -1,0 +1,1270 @@
+{
+  "version": "13.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "CdkWebSshStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CdkWebSshStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/CdkWebSshStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.f3d3a3cc7f26921b237eff24fc5dd7aef8f0465a1f376b8f7918eb3d4b3e8797",
+              "id": "f3d3a3cc7f26921b237eff24fc5dd7aef8f0465a1f376b8f7918eb3d4b3e8797",
+              "packaging": "zip",
+              "sourceHash": "f3d3a3cc7f26921b237eff24fc5dd7aef8f0465a1f376b8f7918eb3d4b3e8797",
+              "s3BucketParameter": "AssetParametersf3d3a3cc7f26921b237eff24fc5dd7aef8f0465a1f376b8f7918eb3d4b3e8797S3BucketBEE108A9",
+              "s3KeyParameter": "AssetParametersf3d3a3cc7f26921b237eff24fc5dd7aef8f0465a1f376b8f7918eb3d4b3e8797S3VersionKeyA877E3C9",
+              "artifactHashParameter": "AssetParametersf3d3a3cc7f26921b237eff24fc5dd7aef8f0465a1f376b8f7918eb3d4b3e8797ArtifactHashAAFCA968"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/construct-compat.ts:252:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:161:23)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "CdkWebSshStack.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:327:29)",
+              "SingletonFunction.ensureLambda (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:93:12)",
+              "new SingletonFunction (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:32:32)",
+              "new AwsCustomResource (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.ts:194:22)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:62:33)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.6b0345ee6b3d8630fc83a42b08cd7f3a056a6894a33b21255d64ea3fe5d89d58",
+              "id": "6b0345ee6b3d8630fc83a42b08cd7f3a056a6894a33b21255d64ea3fe5d89d58",
+              "packaging": "zip",
+              "sourceHash": "6b0345ee6b3d8630fc83a42b08cd7f3a056a6894a33b21255d64ea3fe5d89d58",
+              "s3BucketParameter": "AssetParameters6b0345ee6b3d8630fc83a42b08cd7f3a056a6894a33b21255d64ea3fe5d89d58S3Bucket2080916B",
+              "s3KeyParameter": "AssetParameters6b0345ee6b3d8630fc83a42b08cd7f3a056a6894a33b21255d64ea3fe5d89d58S3VersionKeyCD3AD80D",
+              "artifactHashParameter": "AssetParameters6b0345ee6b3d8630fc83a42b08cd7f3a056a6894a33b21255d64ea3fe5d89d58ArtifactHash1FDBDA0F"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/construct-compat.ts:252:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:161:23)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "CdkWebSshStack.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:327:29)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:80:31)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.0be7d60ccb14964fab0fd6e3f1de16260ea18f347a265d5d90332680ed62f923",
+              "id": "0be7d60ccb14964fab0fd6e3f1de16260ea18f347a265d5d90332680ed62f923",
+              "packaging": "zip",
+              "sourceHash": "0be7d60ccb14964fab0fd6e3f1de16260ea18f347a265d5d90332680ed62f923",
+              "s3BucketParameter": "AssetParameters0be7d60ccb14964fab0fd6e3f1de16260ea18f347a265d5d90332680ed62f923S3BucketD92AFC1C",
+              "s3KeyParameter": "AssetParameters0be7d60ccb14964fab0fd6e3f1de16260ea18f347a265d5d90332680ed62f923S3VersionKey9C8873A4",
+              "artifactHashParameter": "AssetParameters0be7d60ccb14964fab0fd6e3f1de16260ea18f347a265d5d90332680ed62f923ArtifactHash9E292956"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/construct-compat.ts:252:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:161:23)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "CdkWebSshStack.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:327:29)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:89:24)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/UserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserPool6BA7E5F2",
+            "trace": [
+              "new UserPool (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-cognito/lib/user-pool.ts:432:22)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:13:23)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/UserPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserPoolId",
+            "trace": [
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:24:5)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/UserPoolClient/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserPoolClient2F5918F7",
+            "trace": [
+              "new UserPoolClient (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-cognito/lib/user-pool-client.ts:206:22)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:29:30)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/UserPoolWebClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserPoolWebClientId",
+            "trace": [
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:37:5)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/UserPoolIdentity": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserPoolIdentity",
+            "trace": [
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:43:32)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/UserPoolIdentityId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserPoolIdentityId",
+            "trace": [
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:51:5)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/UserPoolUser": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserPoolUser",
+            "trace": [
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:56:28)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/CognitoForceUserPassword/CustomResourcePolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CognitoForceUserPasswordCustomResourcePolicy835DF5D2",
+            "trace": [
+              "new Policy (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-iam/lib/policy.ts:89:22)",
+              "new AwsCustomResource (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.ts:232:20)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:62:33)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/CognitoForceUserPassword/Resource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CognitoForceUserPassword476D1CA4",
+            "trace": [
+              "new CustomResource (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/custom-resource.ts:36:21)",
+              "new AwsCustomResource (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.ts:239:27)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:62:33)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/AWS679f53fac002430cb0da5b7982bd2287/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2",
+            "trace": [
+              "new Role (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:307:31)",
+              "SingletonFunction.ensureLambda (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:93:12)",
+              "new SingletonFunction (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:32:32)",
+              "new AwsCustomResource (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.ts:194:22)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:62:33)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/AWS679f53fac002430cb0da5b7982bd2287/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AWS679f53fac002430cb0da5b7982bd22872D164C4C",
+            "trace": [
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:369:35)",
+              "SingletonFunction.ensureLambda (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:93:12)",
+              "new SingletonFunction (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:32:32)",
+              "new AwsCustomResource (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.ts:194:22)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:62:33)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/AssetParameters/f3d3a3cc7f26921b237eff24fc5dd7aef8f0465a1f376b8f7918eb3d4b3e8797/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersf3d3a3cc7f26921b237eff24fc5dd7aef8f0465a1f376b8f7918eb3d4b3e8797S3BucketBEE108A9",
+            "trace": [
+              "new FileAssetParameters (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "CdkWebSshStack.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:327:29)",
+              "SingletonFunction.ensureLambda (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:93:12)",
+              "new SingletonFunction (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:32:32)",
+              "new AwsCustomResource (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.ts:194:22)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:62:33)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/AssetParameters/f3d3a3cc7f26921b237eff24fc5dd7aef8f0465a1f376b8f7918eb3d4b3e8797/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersf3d3a3cc7f26921b237eff24fc5dd7aef8f0465a1f376b8f7918eb3d4b3e8797S3VersionKeyA877E3C9",
+            "trace": [
+              "new FileAssetParameters (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "CdkWebSshStack.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:327:29)",
+              "SingletonFunction.ensureLambda (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:93:12)",
+              "new SingletonFunction (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:32:32)",
+              "new AwsCustomResource (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.ts:194:22)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:62:33)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/AssetParameters/f3d3a3cc7f26921b237eff24fc5dd7aef8f0465a1f376b8f7918eb3d4b3e8797/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersf3d3a3cc7f26921b237eff24fc5dd7aef8f0465a1f376b8f7918eb3d4b3e8797ArtifactHashAAFCA968",
+            "trace": [
+              "new FileAssetParameters (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "CdkWebSshStack.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:327:29)",
+              "SingletonFunction.ensureLambda (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:93:12)",
+              "new SingletonFunction (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:32:32)",
+              "new AwsCustomResource (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.ts:194:22)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:62:33)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/AssetParameters/6b0345ee6b3d8630fc83a42b08cd7f3a056a6894a33b21255d64ea3fe5d89d58/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters6b0345ee6b3d8630fc83a42b08cd7f3a056a6894a33b21255d64ea3fe5d89d58S3Bucket2080916B",
+            "trace": [
+              "new FileAssetParameters (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "CdkWebSshStack.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:327:29)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:80:31)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/AssetParameters/6b0345ee6b3d8630fc83a42b08cd7f3a056a6894a33b21255d64ea3fe5d89d58/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters6b0345ee6b3d8630fc83a42b08cd7f3a056a6894a33b21255d64ea3fe5d89d58S3VersionKeyCD3AD80D",
+            "trace": [
+              "new FileAssetParameters (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "CdkWebSshStack.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:327:29)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:80:31)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/AssetParameters/6b0345ee6b3d8630fc83a42b08cd7f3a056a6894a33b21255d64ea3fe5d89d58/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters6b0345ee6b3d8630fc83a42b08cd7f3a056a6894a33b21255d64ea3fe5d89d58ArtifactHash1FDBDA0F",
+            "trace": [
+              "new FileAssetParameters (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "CdkWebSshStack.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:327:29)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:80:31)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/AssetParameters/0be7d60ccb14964fab0fd6e3f1de16260ea18f347a265d5d90332680ed62f923/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters0be7d60ccb14964fab0fd6e3f1de16260ea18f347a265d5d90332680ed62f923S3BucketD92AFC1C",
+            "trace": [
+              "new FileAssetParameters (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "CdkWebSshStack.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:327:29)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:89:24)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/AssetParameters/0be7d60ccb14964fab0fd6e3f1de16260ea18f347a265d5d90332680ed62f923/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters0be7d60ccb14964fab0fd6e3f1de16260ea18f347a265d5d90332680ed62f923S3VersionKey9C8873A4",
+            "trace": [
+              "new FileAssetParameters (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "CdkWebSshStack.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:327:29)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:89:24)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/AssetParameters/0be7d60ccb14964fab0fd6e3f1de16260ea18f347a265d5d90332680ed62f923/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters0be7d60ccb14964fab0fd6e3f1de16260ea18f347a265d5d90332680ed62f923ArtifactHash9E292956",
+            "trace": [
+              "new FileAssetParameters (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:66:19)",
+              "CdkWebSshStack.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:70:25)",
+              "new Asset (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:86:40)",
+              "AssetCode.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:327:29)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:89:24)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/LambdaSetCookie/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LambdaSetCookieServiceRoleF79C37BC",
+            "trace": [
+              "new Role (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:307:31)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:80:31)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/LambdaSetCookie/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LambdaSetCookieD15F2174",
+            "trace": [
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:369:35)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:80:31)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/LambdaCors/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LambdaCorsServiceRoleC4A512D9",
+            "trace": [
+              "new Role (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:307:31)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:89:24)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/LambdaCors/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LambdaCors22607DD4",
+            "trace": [
+              "new Function (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function.ts:369:35)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:89:24)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookie/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookie2D77733F",
+            "trace": [
+              "new RestApi (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:463:22)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:98:17)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookie/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookieCloudWatchRole5CCCF78B",
+            "trace": [
+              "new Role (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
+              "RestApi._configureCloudWatchRole (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:289:18)",
+              "new RestApi (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:481:12)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:98:17)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookie/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookieAccountAA3479D6",
+            "trace": [
+              "RestApi._configureCloudWatchRole (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:294:22)",
+              "new RestApi (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:481:12)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:98:17)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookie/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookieDeployment0D2707EA7500c9a80cfeb94405dda95346125ea2",
+            "trace": [
+              "new Deployment (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/deployment.ts:34:21)",
+              "RestApi._configureDeployment (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:318:32)",
+              "new RestApi (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:484:10)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:98:17)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookie/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookieDeploymentStageprod876FF2BF",
+            "trace": [
+              "new Stage (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/stage.ts:136:22)",
+              "RestApi._configureDeployment (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:328:30)",
+              "new RestApi (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:484:10)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:98:17)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookie/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookieEndpoint16218B10",
+            "trace": [
+              "RestApi._configureDeployment (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:333:7)",
+              "new RestApi (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:484:10)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:98:17)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookie/Default/POST/ApiPermission.CdkWebSshStackApiCookie73C664D5.POST..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookiePOSTApiPermissionCdkWebSshStackApiCookie73C664D5POST2E9E342C",
+            "trace": [
+              "Function.addPermission (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:130:5)",
+              "LambdaIntegration.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.ts:41:18)",
+              "new Method (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:98:36)",
+              "RootResource.addMethod (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:95:12)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:100:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookie/Default/POST/ApiPermission.Test.CdkWebSshStackApiCookie73C664D5.POST..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookiePOSTApiPermissionTestCdkWebSshStackApiCookie73C664D5POST93FDA442",
+            "trace": [
+              "Function.addPermission (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:130:5)",
+              "LambdaIntegration.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.ts:49:20)",
+              "new Method (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:98:36)",
+              "RootResource.addMethod (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:95:12)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:100:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookie/Default/POST/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookiePOSTCE26D273",
+            "trace": [
+              "new Method (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:116:22)",
+              "RootResource.addMethod (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:95:12)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:100:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookie/Default/OPTIONS/ApiPermission.CdkWebSshStackApiCookie73C664D5.OPTIONS..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookieOPTIONSApiPermissionCdkWebSshStackApiCookie73C664D5OPTIONS77A63023",
+            "trace": [
+              "Function.addPermission (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:130:5)",
+              "LambdaIntegration.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.ts:41:18)",
+              "new Method (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:98:36)",
+              "RootResource.addMethod (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:95:12)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:102:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookie/Default/OPTIONS/ApiPermission.Test.CdkWebSshStackApiCookie73C664D5.OPTIONS..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookieOPTIONSApiPermissionTestCdkWebSshStackApiCookie73C664D5OPTIONSE2E0557D",
+            "trace": [
+              "Function.addPermission (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:130:5)",
+              "LambdaIntegration.bind (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.ts:49:20)",
+              "new Method (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:98:36)",
+              "RootResource.addMethod (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:95:12)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:102:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookie/Default/OPTIONS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookieOPTIONS8ED9EC74",
+            "trace": [
+              "new Method (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:116:22)",
+              "RootResource.addMethod (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:95:12)",
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:102:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/ApiCookieUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCookieUrl",
+            "trace": [
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:104:5)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/AwsRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AwsRegion",
+            "trace": [
+              "new CdkWebSshStack (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/lib/cdk-web-ssh-stack.ts:109:5)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/bin/cdk-web-ssh.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ],
+        "/CdkWebSshStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (/Users/abenfat/Documents/aws-samples/web-based-ssh-client-using-aws-iot-secure-tunneling/cdkwebapp/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "CdkWebSshStack"
+    }
+  }
+}

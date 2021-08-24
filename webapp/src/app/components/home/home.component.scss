@@ -1,0 +1,64 @@
+mat-card {
+    width: 90%;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+.formCard {
+  margin-top: 20px;
+}
+
+
+.toolbar {
+  font-size: 1em;
+  height: 30px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+
+.mat-card{
+  padding:0;
+}
+.mat-card-content {
+  padding: 20px;
+}
+
+.footer {
+  position:fixed;
+  bottom:0px; 
+  width: 100%;
+}
+
+.footer_link {
+ font-size: 0.8em;
+ color: white; 
+}
+
+.footer_link a {
+  // text-decoration: none;
+  color: white; 
+ }
+
+ .term {
+   padding: 30px;
+   width: 700px;
+ }
+
+
+ .carder {
+   margin-top: 30px; 
+   width: 760px !important;
+ }
+
+ .awsregion_matform {
+   width: 70%;
+ }
