@@ -1,6 +1,6 @@
 ## My Project
 
-TODO: Fill this README out!
+TODO: Fill this README OUT!
 
 Be sure to:
 
