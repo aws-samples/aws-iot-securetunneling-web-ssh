@@ -1,0 +1,75 @@
+
+<div fxFlex fxLayout="column" fxLayoutAlign="space-around center" fxLayoutGap="30px" fxFlexFill>
+
+  <div fxLayout="row" fxLayoutAlign='space-around start' fxFill>
+
+    <mat-card class="carder">
+      <form [formGroup]="form" (ngSubmit)="onSubmit(form)" >
+      <mat-toolbar class="toolbar" fxLayout='row' fxLayoutAlign="center center" color="accent">
+        Select your AWS region
+      </mat-toolbar>
+      <br>
+      <mat-card-content fxLayout="row" fxLayoutAlign='center center'> 
+        <mat-form-field class="awsregion_matform"
+        appearance="fill"
+        [hideRequiredMarker]="hideRequiredControl.value"
+        [floatLabel]="floatLabelControl.value">
+          <mat-select required name="region" formControlName="region">
+          <mat-option *ngFor="let region of aws_regions" [value]="region" >
+          {{region.name}}
+          </mat-option>
+          </mat-select>
+          <mat-label>AWS Region</mat-label>
+          <mat-hint> <strong>Might not work in us-east-1 due to public suffix list</strong></mat-hint>
+          </mat-form-field>
+      </mat-card-content>
+
+      <mat-toolbar class="toolbar" fxLayout='row' fxLayoutAlign="center center" color="accent">
+          Copy the source client access token      
+      </mat-toolbar>
+      <br>
+      <mat-card-content fxLayout="row" fxLayoutAlign='center center'> 
+        <mat-form-field class="awsregion_matform"
+        appearance="fill"
+        [hideRequiredMarker]="hideRequiredControl.value"
+        [floatLabel]="floatLabelControl.value">
+          <mat-label>Enter the source token</mat-label>
+          <textarea matInput required name="token" formControlName='token' rows="5" cols="50" ></textarea>
+        </mat-form-field>   
+      </mat-card-content>
+      <mat-divider></mat-divider>
+      <br>
+      <mat-card-actions fxLayoutAlign="center center">
+        <button mat-raised-button type="submit" [disabled]="form.invalid" color="accent">Connect</button>
+      </mat-card-actions>
+      <mat-card-content *ngIf="error" fxLayout="row" fxLayoutAlign='center center'>
+        <br>
+        <mat-error>{{error}}</mat-error>
+        <br>
+      </mat-card-content>
+
+    </form>
+    </mat-card>
+
+
+  </div>
+
+
+  <mat-card  class="term">
+      <div #term>
+
+      </div>
+  </mat-card>
+
+  <div fxFlex>
+
+  </div>
+
+  <div class="footer">
+    <mat-toolbar color="primary">  
+      <mat-toolbar-row fxLayout="row" fxLayoutAlign="center center"> <br>
+            <span class="footer_link">This demo uses <a href="https://github.com/stuicey/SSHy" _target="blank" rel="noopener noreferrer">SSHy</a>   </span>  
+      </mat-toolbar-row>
+  </mat-toolbar>
+</div>
+

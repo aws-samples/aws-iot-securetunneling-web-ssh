@@ -1,0 +1,187 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "angularstarter": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss",
+          "skipTests": true
+        },
+        "@schematics/angular:class": {
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "skipTests": true
+        },
+        "@schematics/angular:guard": {
+          "skipTests": true
+        },
+        "@schematics/angular:module": {
+        },
+        "@schematics/angular:pipe": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/angularstarter",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss",
+              "src/assets/css/xterm.css",
+              "src/assets/css/fonts.css"
+            ],
+            "scripts": [
+              "./src/assets/js/defines.js",
+              "./src/assets/js/libs/aes.min.js",
+              "./src/assets/js/libs/BigInteger.min.js",
+              "./src/assets/js/libs/Hash.min.js",
+              "./src/assets/js/libs/randomart.js",
+              "./src/assets/js/libs/struct.min.js",
+              "./src/assets/js/libs/utilities.min.js",
+              "./src/assets/js/auth_handler.js",
+              "./src/assets/js/crypto.js",
+              "./src/assets/js/dhKex.js",
+              "./src/assets/js/message.js",
+              "./src/assets/js/parceler.js",
+              "./src/assets/js/rsaKey.js",
+              "./src/assets/js/settings.js",
+              "./src/assets/js/transport.js"  
+            ],
+            "vendorChunk": true,
+            "extractLicenses": false,
+            "buildOptimizer": false,
+            "sourceMap": true,
+            "optimization": false,
+            "namedChunks": true
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "7mb",
+                  "maximumError": "10mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          },
+          "defaultConfiguration": ""
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "angularstarter:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "angularstarter:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "angularstarter:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss",
+              "src/assets/css/xterm.css",
+              "src/assets/css/fonts.css"
+            ],
+            "scripts": [
+              "./src/assets/js/defines.js",
+              "./src/assets/js/libs/aes.min.js",
+              "./src/assets/js/libs/BigInteger.min.js",
+              "./src/assets/js/libs/Hash.min.js",
+              "./src/assets/js/libs/randomart.js",
+              "./src/assets/js/libs/struct.min.js",
+              "./src/assets/js/libs/utilities.min.js",
+              "./src/assets/js/auth_handler.js",
+              "./src/assets/js/crypto.js",
+              "./src/assets/js/dhKex.js",
+              "./src/assets/js/message.js",
+              "./src/assets/js/parceler.js",
+              "./src/assets/js/rsaKey.js",
+              "./src/assets/js/settings.js",
+              "./src/assets/js/transport.js"  
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "tsconfig.app.json",
+              "tsconfig.spec.json",
+              "e2e/tsconfig.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "e2e/protractor.conf.js",
+            "devServerTarget": "angularstarter:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "angularstarter:serve:production"
+            }
+          }
+        }
+      }
+    }},
+  "defaultProject": "angularstarter"
+}

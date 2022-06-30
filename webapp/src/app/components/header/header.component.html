@@ -1,0 +1,18 @@
+<mat-toolbar color="primary">  
+    <mat-toolbar-row fxLayout="row" fxLayoutAlign="space-between center">
+        <span *ngIf="isLoggedIn">
+                <!-- <button mat-icon-button (click)="onToggleMenu()">
+                <mat-icon>menu</mat-icon> 
+                </button> -->
+        </span>
+        <span>
+
+        </span>
+        <span *ngIf="isLoggedIn">
+            <button mat-icon-button (click)="onLogOut()">
+                <mat-icon>exit_to_app</mat-icon>
+            </button>
+        </span>
+    </mat-toolbar-row>
+</mat-toolbar>
+<mat-progress-bar *ngIf="progress" class="progressbar" color="accent" mode="query"></mat-progress-bar>

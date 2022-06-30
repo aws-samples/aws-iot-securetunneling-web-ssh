@@ -1,0 +1,38 @@
+
+.toolbar {
+    height: 70px !important;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+
+
+.formCard{
+    margin-top: 20px;
+    width: 450px;
+    background-color: #f1f1f1;
+    margin: 50px;
+    padding:0;
+
+}
+.mat-form-field-prefix{
+    color: red !important;
+}
+
+.authForm {
+    width: 75%;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    .formCard{
+        width: 90%;
+        margin:0;
+    }
+
+    .authForm {
+ 
+        width: 80%;
+    }
+  }
